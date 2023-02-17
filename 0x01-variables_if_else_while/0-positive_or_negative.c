@@ -3,17 +3,18 @@
 #include <time.h>
 
 /**
- * main - Determine if number is positive or negative
+ *main - Entry point
  *
- * Description: The variable n will store a different value every time
- * it is run
+ *Description: 'Program will always assign new number to the variable
+ * and each time is executed'
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int n;
+
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
