@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 * main - Entry point
 * Desription: C program to demonstrate putchar() method
@@ -11,3 +12,4 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 
 return (0);
+}
