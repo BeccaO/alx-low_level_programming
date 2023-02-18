@@ -12,16 +12,17 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z';
 	 ch++);
-
+{
 	putchar(ch);
-
+}
 	char ab = 'A';
 
 	for (ab = 'A'; ab <= 'Z';
 	 ab++);
-
+{
 	putchar(ab);
-	"\n";
+}
+	putchar('\n';
 
 	return (0);
 }
