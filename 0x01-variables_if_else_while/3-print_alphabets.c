@@ -22,7 +22,7 @@ int main(void)
 {
 	putchar(ab);
 }
-	putchar('\n';
+	putchar('\n');
 
 	return (0);
 }
