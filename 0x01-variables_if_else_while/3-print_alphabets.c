@@ -9,8 +9,7 @@
 
 int main(void)
 {
-	char ch = 'a',
-	char de = 'A';
+	char ch = 'a', de = 'A';
 
 for (ch = 'a'; ch <= 'z'; ch++)
 {
