@@ -15,12 +15,12 @@ int main(void)
 {
 	putchar(ch);
 }
-	char ab = 'A';
+	char de = 'A';
 
-	for (ab = 'A'; ab <= 'Z';
-	 ab++);
+	for (de = 'A'; de <= 'Z';
+	 de++);
 {
-	putchar(ab);
+	putchar(de);
 }
 	putchar('\n');
 
