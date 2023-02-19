@@ -8,16 +8,23 @@
 */
 int main(void)
 {
-	int i;
+	int d, i;
 
-	for (i = '01'; i <= '99'; i++)
+	for (d = '0'; d <= '9'; d++)
 {
+	for (i = '0'; i <= '9'; i++)
+{
+	if (d < i)
+{
+	putchar(d);
 	putchar(i);
 
-	if (i != '99')
+	if (d != '8' || (d == '8' && i != '9'))
 {
 	putchar(',');
 	putchar(' ');
+}
+}
 }
 }
 	putchar('\n');
