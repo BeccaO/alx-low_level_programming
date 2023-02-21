@@ -2,13 +2,24 @@
 #include "main.h"
 /**
 *main - check the code
-*Description:a function that prints the alphabet
+*
 *Return: Always 0 (Success)
 */
-void print_alphabet(void);
 int main(void)
 {
-	char b;
+	print_alphabet();
+
+	return (0);
+}
+/**
+*print_alphabet - in lowercase
+*Description: print lower cases
+*
+*Return: Void
+*/
+	void print_alphabet(void)
+{
+	int b;
 
 	for (b = 'a'; b <= 'z'; b++)
 {
@@ -16,5 +27,4 @@ int main(void)
 }
 	putchar('\n');
 
-	return (0);
 }
