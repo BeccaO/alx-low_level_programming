@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
 *main - Entry point
 *Description: program that prints _putchar
@@ -17,5 +18,6 @@ int main(void)
 	putchar('h');
 	putchar('a');
 	putchar('r');
+	putchar('
 	return (0);
 }
