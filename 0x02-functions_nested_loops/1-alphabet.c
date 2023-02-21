@@ -6,18 +6,7 @@
 *Return: Always 0 (Success)
 */
 int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-/**
-*print_alphabet - in lowercase
-*Description: print lower cases
-*
-*Return: Void
-*/
-	void print_alphabet(void)
+void print_alphabet(void)
 {
 	int b;
 
