@@ -18,5 +18,4 @@ void print_alphabet(void)
 	putchar(b);
 }
 	putchar('\n');
-	return (0);
 }
