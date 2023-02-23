@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (c = 48; c < 58; c++)
 	{
-	putchar (c);
+	_putchar(c);
 	}
-	putchar ('\n');
+	_putchar('\n');
 }
