@@ -1,9 +1,9 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+int putchar(int char);
 int _isdigit(int c);
 int _isupper(int c);
 int mul(int a, int b);
 void print_numbers(void);
-_putchar;
 #endif
