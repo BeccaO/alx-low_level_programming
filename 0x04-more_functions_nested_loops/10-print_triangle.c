@@ -19,7 +19,7 @@ if (size <= 0)
 
 	for (k = 1; k <= size; k++)
 {
-	for (l = 1; l < size; l++)
+	for (l = k; l < size; l++)
 {
 	_putchar(' ');
 }
