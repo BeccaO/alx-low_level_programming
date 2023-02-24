@@ -17,7 +17,7 @@ if (size <= 0)
 {
 	int k, l;
 
-	for (k = 1; k < size; k++)
+	for (k = 1; k <= size; k++)
 {
 	for (l = 1; l < size; l++)
 {
