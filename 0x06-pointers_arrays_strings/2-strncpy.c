@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
-*_strncpy - a function that copies a string
+*_strncpy - Function that copies string src to dest
 *@dest: String 1
 *@src: String 2
-*@n: Number of index 
-*Return Always 0 (success)
+*@n: Number of index
+*Return: dest
 */
 char *_strncpy(char *dest, char *src, int n)
 {
