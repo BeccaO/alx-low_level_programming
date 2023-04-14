@@ -8,7 +8,7 @@
 */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int fd, i = 0, returnv = 1;
+	int fd, i = 0, retv = 1;
 
 	if (!filename)
 	return (-1);
@@ -22,9 +22,9 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 	while (text_content[i])
 		i++;
-	returnv = write(fd, text_content, i);
+	retv = write(fd, text_content, i);
 	close(fd);
-	if (returnv == -1)
-	return (-1);
+	if (retv == -1)
+		return (-1);
 	return (1);
 }
